@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image2.png">
+
+</head>
+<body>
+    <div class="container">
+         
+            <div style="display: flex; align-items: center;">
+  <img src="image2.png" height="100px" width="80px" alt="">
+  <h1 style="margin-left: 10px;">IT SKILL DEV Institute</h1>
+</div>
+            <h1>Final Test (5 in 1)</h1>
+        <div class="name-section">
+            <label for="studentName">Enter your name:</label>
+            <input style="height:40px; width: 180px;" type="text" id="studentName" placeholder="Your Name">
+        </div>
+
+        <!-- Display Student's Name -->
+        <p id="displayName"></p>
+
+        <!-- Question 1 (Yes/No using checkboxes) -->
+        <div class="question">
+            <p>1.  Which of the following is an example of supervised learning?</p>
+            <input type="checkbox" id="SetPrimarymetrictoaccuracy" value="Set Primary metric to accuracy.">
+            <label for="Set Primary metric to accuracy">Predicting house prices using past data</label><br>
+            
+            <input type="checkbox" id="EnableExplainbestmodel" value="Enable Explain best model">
+            <label for="Enable Explain best model">Clustering customers into groups</label>
+            
+        </div>
+        
+        <!-- Question 2 (Dropdown) -->
+        <div class="question">
+            <p>2. Which algorithm is used for predicting whether an email is spam or not?</p>
+            <select id="question2">
+                <option value="">--Select an answer--</option>
+                <option value="inclusiveness">Linear Regression</option>
+                <option value="reliability and safety">Logistic Regression</option>
+                <option value="transparency">K-Means</option>
+                <option value="privacy and security">PCA</option>
+            </select>
+        </div>
+          <!-- Question 3 (Dropdown) -->
+        
+          <div class="question">
+            <p>3. In a dataset, the output or target variable is called: </p>
+            <input type="radio" id="Computer" name="workloadAI" value="Computer vision">
+            <label for="Computer vision">Feature</label>
+            
+            <input type="radio" id="Computer" name="workloadAI" value="Machine Learning">
+            <label for="Machine Learning">Label</label>
+            
+            <input type="radio" id="Computer" name="workloadAI" value="Artificial Intelligence">
+            <label for="Artificial Intelligence">Token</label>
+        </div>
+        
+ <!-- Question 4 (Checkboxes) -->
+
+ <div class="question">
+    <p>4. Optical Character Recognition (OCR) is mainly used for:</p>
+    <input type="radio" id=" guiding" name="train" value="VALUE1">
+    <label for=" fairness">Detecting emotions from images</label>
+    <BR></BR>
+    <input type="radio" id="guiding" name="train" value="VALUE2">
+    <label for="inclusiveness">Identifying human faces</label>
+    <br>
+    <input type="radio" id="guiding" name="train" value="VALUE3">
+    <label for="accountability">Converting handwritten/printed text into digital text</label>
+</div>
+<div class="question">
+    <p>5. food taste is good detect the tone of sentence?</p>
+    <select id="question5">
+        <option value="">--Select an answer--</option>
+        <option value="Positive">Positive</option>
+        
+        <option value="negative">negative</option>
+    </select>
+</div>
+
+
+<div class="question">
+    <p>6.Which computer vision task involves labeling every pixel of an image with a class?</p>
+    <select id="question7">
+        <option value="">--Select an answer--</option>
+        <option value="Object Detection">Image Classification</option>
+        
+        <option value="OCR">Semantic Segmentation</option>
+    </select>
+</div>
+<div class="question">
+    <p>7. Identifying whether an image contains a cat or a dog is an example of: </p>
+    <select id="question8">
+        <option value="">--Select an answer--</option>
+        <option value="fairness">Image Classification</option>
+        
+        <option value="inclusiveness">Object Tracking</option>
+    </select>
+</div>
+<div class="question">
+    <p>8.Which of the following is commonly used as a model for Regression? </p>
+    <input type="radio" id="CNN" name="AI" value="CNN">
+    <label for="CNN">Logistic Regression</label>
+    
+    <input type="radio" id="RNN" name="AI" value="RNN">
+    <label for="RNN">Linear Regression</label>
+    
+    
+</div>
+<div class="question">
+  <p>9.Which Statement belong to clustering?</p>
+    <input type="radio" id="Detect individual objects in an image" name="images" value="Detect individual objects in an image">
+    <label for="Detect individual objects in an image">Organizing document in group based on similarities of text Contain in document.</label><BR></BR>
+    
+    <input type="radio" id="Assign a label to each pixel in the image" name="images" value="Assign a label to each pixel in the image">
+    <label for="Assign a label to each pixel in the image">Predicting Wether a person will develop mild moderate & severe allergy system based on pollen count.</label><BR></BR>
+   
+    
+</div>
+<div class="question">
+    <div class="question">
+        <p>10.You are developing a solution that uses the Text Analytics service.
+            You need to identify the main talking points in a collection of documents.
+            Which type of natural language processing should you use?</p>
+        <input type="radio" id="Building AI systems that require no human oversight" name="At" value="Building AI systems that require no human oversight">
+        <label for="Building AI systems that require no human oversight">entity recognition</label><br>
+        
+        <input type="radio" id="standards" name="At" value="standards">
+        <label for="standards">key phrase extraction</label>
+        
+</div>
+<div class="question">
+    <p>11: Breaking text into smaller units like words or sentences is called: </p>
+      <input type="radio" id="Elevenlabs" name="image" value="Object detection">
+      <label for="Object detection">Vectorization</label>
+      
+      <input type="radio" id="Elevenlabs" name="image" value="OCR">
+      <label for="Elevenlabs">Stemming</label>
+      <input type="radio" id="Elevenlabs" name="image" value="Face detection">
+      <label for="Elevenlabs">Tokenization</label>
+      
+      
+  </div>
+  <div class="question">
+    <p>12.Use the language detection capability of Azure AI Language to identify the language in which text is written. You can submit multiple documents at a time for analysis. For each document submitted the service will detect:?</p>
+    <input type="radio" id="NO" name="Am" value="Voxel">
+    <label for="Voxel">The language name,The ISO 639-1 language code,A score</label><br>
+    
+    <input type="radio" id="Yes" name="Am" value="Pixel">
+    <label for="Pixel">The language name,The ISO 639-1 language code</label>
+    
+    
+</div>
+<div class="question">
+    <p>13. Which statement follow the Text Analytics Services?choose two </p>
+    <input type="checkbox" id="inclusiveness" value="inclusiveness">
+    <label for="inclusiveness">The text Analytic services determine in which language text is written.</label><br>
+    
+    <input type="checkbox" id="opinionatedness" value="opinionatedness">
+    <label for="opinionatedness">The Text Analytics Services can Detect Handwtitten Signature in a document.</label><br>
+    <input type="checkbox" id="reliability and safety" value="reliability and safety">
+    <label for="reliability and safety">The text Analytics service can identify companies and organization mention in a documents.</label>
+    
+</div>
+<div class="question">
+    <p>14. John works at Google and lives in New York. He attended a conference in San Francisco last week. <br> Recognize number of entity use in above sentence?</p>
+    <input type="radio" id="NO" name="Angle" value="6">
+    <label for="6">6</label><br>
+    
+    <input type="radio" id="Yes" name="Angle" value="4">
+    <label for="4">4</label>
+    
+    
+</div>
+<div class="question">
+    <p>15. A technique that converts words into numbers is called------ ?</p>
+    <input type="radio" id="NO" name="Angl" value="6">
+    <label for="6">Vectorization</label><br>
+    
+    <input type="radio" id="Yes" name="Angl" value="4">
+    <label for="4">Tokenization</label>
+    
+    
+</div>
+<button onclick="checkAnswers()">submit</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
